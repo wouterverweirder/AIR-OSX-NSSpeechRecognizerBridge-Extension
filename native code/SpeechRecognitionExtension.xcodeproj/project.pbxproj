@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C46BB881540002F004CD898 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C46BB871540002F004CD898 /* Cocoa.framework */; };
+		6C46BB921540002F004CD898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C46BB901540002F004CD898 /* InfoPlist.strings */; };
+		6C46BB961540002F004CD898 /* SpeechRecognitionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C46BB951540002F004CD898 /* SpeechRecognitionExtension.m */; };
+		6C46BB9D154000FE004CD898 /* Adobe AIR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C46BB9C154000FE004CD898 /* Adobe AIR.framework */; };
+		6C46BBA015402188004CD898 /* AIRSpeechRecognitionAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C46BB9E15402188004CD898 /* AIRSpeechRecognitionAdapter.h */; };
+		6C46BBA115402188004CD898 /* AIRSpeechRecognitionAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C46BB9F15402188004CD898 /* AIRSpeechRecognitionAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C46BB841540002F004CD898 /* SpeechRecognitionExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpeechRecognitionExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C46BB871540002F004CD898 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6C46BB8A1540002F004CD898 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6C46BB8B1540002F004CD898 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6C46BB8C1540002F004CD898 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C46BB8F1540002F004CD898 /* SpeechRecognitionExtension-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeechRecognitionExtension-Info.plist"; sourceTree = "<group>"; };
+		6C46BB911540002F004CD898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C46BB931540002F004CD898 /* SpeechRecognitionExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechRecognitionExtension-Prefix.pch"; sourceTree = "<group>"; };
+		6C46BB941540002F004CD898 /* SpeechRecognitionExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechRecognitionExtension.h; sourceTree = "<group>"; };
+		6C46BB951540002F004CD898 /* SpeechRecognitionExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechRecognitionExtension.m; sourceTree = "<group>"; };
+		6C46BB9C154000FE004CD898 /* Adobe AIR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Adobe AIR.framework"; path = "../../../../../../Applications/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac/Adobe AIR.framework"; sourceTree = "<group>"; };
+		6C46BB9E15402188004CD898 /* AIRSpeechRecognitionAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRSpeechRecognitionAdapter.h; sourceTree = "<group>"; };
+		6C46BB9F15402188004CD898 /* AIRSpeechRecognitionAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRSpeechRecognitionAdapter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C46BB801540002F004CD898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C46BB881540002F004CD898 /* Cocoa.framework in Frameworks */,
+				6C46BB9D154000FE004CD898 /* Adobe AIR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C46BB781540002F004CD898 = {
+			isa = PBXGroup;
+			children = (
+				6C46BB8D1540002F004CD898 /* SpeechRecognitionExtension */,
+				6C46BB861540002F004CD898 /* Frameworks */,
+				6C46BB851540002F004CD898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C46BB851540002F004CD898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C46BB841540002F004CD898 /* SpeechRecognitionExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C46BB861540002F004CD898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C46BB871540002F004CD898 /* Cocoa.framework */,
+				6C46BB891540002F004CD898 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C46BB891540002F004CD898 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C46BB9C154000FE004CD898 /* Adobe AIR.framework */,
+				6C46BB8A1540002F004CD898 /* AppKit.framework */,
+				6C46BB8B1540002F004CD898 /* CoreData.framework */,
+				6C46BB8C1540002F004CD898 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6C46BB8D1540002F004CD898 /* SpeechRecognitionExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6C46BB941540002F004CD898 /* SpeechRecognitionExtension.h */,
+				6C46BB951540002F004CD898 /* SpeechRecognitionExtension.m */,
+				6C46BB8E1540002F004CD898 /* Supporting Files */,
+				6C46BB9E15402188004CD898 /* AIRSpeechRecognitionAdapter.h */,
+				6C46BB9F15402188004CD898 /* AIRSpeechRecognitionAdapter.m */,
+			);
+			path = SpeechRecognitionExtension;
+			sourceTree = "<group>";
+		};
+		6C46BB8E1540002F004CD898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C46BB8F1540002F004CD898 /* SpeechRecognitionExtension-Info.plist */,
+				6C46BB901540002F004CD898 /* InfoPlist.strings */,
+				6C46BB931540002F004CD898 /* SpeechRecognitionExtension-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C46BB811540002F004CD898 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C46BBA015402188004CD898 /* AIRSpeechRecognitionAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C46BB831540002F004CD898 /* SpeechRecognitionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C46BB991540002F004CD898 /* Build configuration list for PBXNativeTarget "SpeechRecognitionExtension" */;
+			buildPhases = (
+				6C46BB7F1540002F004CD898 /* Sources */,
+				6C46BB801540002F004CD898 /* Frameworks */,
+				6C46BB811540002F004CD898 /* Headers */,
+				6C46BB821540002F004CD898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechRecognitionExtension;
+			productName = SpeechRecognitionExtension;
+			productReference = 6C46BB841540002F004CD898 /* SpeechRecognitionExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C46BB7A1540002F004CD898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6C46BB7D1540002F004CD898 /* Build configuration list for PBXProject "SpeechRecognitionExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C46BB781540002F004CD898;
+			productRefGroup = 6C46BB851540002F004CD898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C46BB831540002F004CD898 /* SpeechRecognitionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C46BB821540002F004CD898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C46BB921540002F004CD898 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C46BB7F1540002F004CD898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C46BB961540002F004CD898 /* SpeechRecognitionExtension.m in Sources */,
+				6C46BBA115402188004CD898 /* AIRSpeechRecognitionAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C46BB901540002F004CD898 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C46BB911540002F004CD898 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C46BB971540002F004CD898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../runtimes/air/mac @executable_path/../Frameworks /Library/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		6C46BB981540002F004CD898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../runtimes/air/mac @executable_path/../Frameworks /Library/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		6C46BB9A1540002F004CD898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechRecognitionExtension/SpeechRecognitionExtension-Prefix.pch";
+				INFOPLIST_FILE = "SpeechRecognitionExtension/SpeechRecognitionExtension-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		6C46BB9B1540002F004CD898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechRecognitionExtension/SpeechRecognitionExtension-Prefix.pch";
+				INFOPLIST_FILE = "SpeechRecognitionExtension/SpeechRecognitionExtension-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C46BB7D1540002F004CD898 /* Build configuration list for PBXProject "SpeechRecognitionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C46BB971540002F004CD898 /* Debug */,
+				6C46BB981540002F004CD898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C46BB991540002F004CD898 /* Build configuration list for PBXNativeTarget "SpeechRecognitionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C46BB9A1540002F004CD898 /* Debug */,
+				6C46BB9B1540002F004CD898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C46BB7A1540002F004CD898 /* Project object */;
+}

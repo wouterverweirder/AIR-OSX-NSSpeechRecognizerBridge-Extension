@@ -1,0 +1,17 @@
+*/.DS_STORE
+
+*/.actionScriptProperties
+
+*/.flexLibProperties
+
+*/.project
+
+*/.settings
+
+*/build
+
+*/bin-debug
+
+as3 code/cert
+
+as3 code/extension
